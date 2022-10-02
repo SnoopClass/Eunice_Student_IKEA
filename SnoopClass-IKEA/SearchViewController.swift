@@ -7,12 +7,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SearchViewController: UIViewController {
     fileprivate var recent, category: CompactCard?
     fileprivate var campaign, popular: DetailCard?
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .systemBackground
         readFile()
         // Do any additional setup after loading the view.
     }
@@ -21,7 +22,7 @@ class ViewController: UIViewController {
 }
 
 // 참고 코드: https://alep.medium.com/swiftui-tutorial-how-to-read-a-json-file-73fd960ec954
-extension ViewController {
+extension SearchViewController {
     fileprivate func readFile() {
         if let url = Bundle.main.url(forResource: "ikeaSearchViewMockData", withExtension: "json"),
            let data = try? Data(contentsOf: url) {
