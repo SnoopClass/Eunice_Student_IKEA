@@ -35,7 +35,6 @@ extension ViewController {
                 self.category = ikeaData.category
                 self.campaign = ikeaData.campaign
                 self.popular = ikeaData.popular
-                 print("category.items.count: \(category!.items.count)")
             }
         } else {
             print("url failed")
