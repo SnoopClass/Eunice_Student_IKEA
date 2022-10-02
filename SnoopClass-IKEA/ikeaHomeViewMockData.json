@@ -1,0 +1,124 @@
+{
+	"recent": 
+	{
+		"title": "최근 본 제품",
+		"button": "모두 삭제",
+		"items": [
+			{
+				"name": "LILLNAGGEN 릴나겐",
+				"image": "LILLNAGGEN"
+			},
+			{
+				"name": "TEODORES 테오도레스",
+				"image": "TEODORES"
+			}
+		]
+	},
+	"category":
+	{
+		"title": "제품 찾아보기",
+		"button": "모두 보기",
+		"items": [
+			{
+				"name": "수납/정리",
+				"image": "drawer"
+			},
+			{
+				"name": "텍스타일",
+				"image": "towel"
+			},
+			{
+				"name": "조명",
+				"image": "pandent-light"
+			},
+			{
+				"name": "홈스마트",
+				"image": "bulb"
+			},
+			{
+				"name": "가구",
+				"image": "table"
+			},
+			{
+				"name": "홈데코/장식품",
+				"image": "vase"
+			},
+			{
+				"name": "주방가구",
+				"image": "stove"
+			},
+			{
+				"name": "침대/매트리스",
+				"image": "bed"
+			},
+			{
+				"name": "chevron",
+				"image": "chevron.right"
+			}
+		]
+	},
+	"campaign":
+	{
+		"title": "캠페인",
+		"button": "모두 보기",
+		"items": [
+			{
+				"name": "IKEA Family 특별가",
+				"image": "family",
+				"text": "IKEA Family 특별가로 선보이고 있는 다양한 제품을 확인해보세요."
+			},
+			{
+				"name": "신제품",
+				"image": "beach-chair",
+				"text": "어떤 제품이 새로 출시되었는지 살펴보세요."
+			},
+			{
+				"name": "기간 한정 혜택",
+				"image": "busy-room",
+				"text": "한정된 기간동안 만날 수 있는 특별한 가격을 확인해보세요."
+			},
+			{
+				"name": "가장 낮은 가격",
+				"image": "two-table",
+				"text": "모든 사람들이 훌륭한 디자인을 즐길 수 있어야 합니다. 그래서 IKEA는 제품 디자인을 시작 할 때 누구나 구매할 수 있을 정도의 가격을 먼저 매겨놓고 시작합니다."
+			}
+		]
+	},
+	"popular": {
+		"title": "인기 제품",
+		"button": "모두 보기",
+		"items": [
+			{
+				"name": "LILLNAGGEN 릴나겐",
+				"image": "LILLNAGGEN",
+				"text": "유리닦이, 블랙",
+				"purchase": {
+					"price": 1900,
+					"highlight": false
+				}
+			},
+			{
+				"name": "RINNIG 린니그",
+				"image": "RINNIG",
+				"text": "행주, 화이트/다크그레이/패턴, 45x60cm",
+				"purchase": {
+					"price": 4900,
+					"highlight": false,
+					"bundle": 4,
+					"option": "+옵션"
+				}
+			},
+			{
+				"name": "SOLHETTA 솔헤타",
+				"image": "SOLHETTA",
+				"text": "LED 전구 E26 470 루멘, 구형 오팔 화이트",
+				"purchase": {
+					"price": 3500,
+					"highlight": true,
+					"bundle": 2
+				}
+			}
+]
+
+	}
+}
