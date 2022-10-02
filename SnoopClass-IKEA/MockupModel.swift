@@ -4,11 +4,7 @@
 //
 //  Created by Hyorim Nam on 2022/10/02.
 //
-// This file was generated from JSON Schema using quicktype, do not modify it directly.
-
-// To parse the JSON, add this file to your project and do:
-//
-//   let ikea = try? newJSONDecoder().decode(Ikea.self, from: jsonData)
+// This file was generated from JSON Schema using quicktype then modified.
 
 import Foundation
 
