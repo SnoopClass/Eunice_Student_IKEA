@@ -16,7 +16,6 @@
 		C50A26B028E8352200DEB0ED /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = C50A26AF28E8352200DEB0ED /* .swiftlint.yml */; };
 		C50A26B228E8473900DEB0ED /* ikeaSearchViewMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = C50A26B128E8473900DEB0ED /* ikeaSearchViewMockData.json */; };
 		C50A26B428E98A8F00DEB0ED /* MockupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A26B328E98A8F00DEB0ED /* MockupModel.swift */; };
-		C50A26B628E9AEE500DEB0ED /* OtherTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A26B528E9AEE500DEB0ED /* OtherTabView.swift */; };
 		C50A26B828E9B00300DEB0ED /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A26B728E9B00300DEB0ED /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		C50A26AF28E8352200DEB0ED /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		C50A26B128E8473900DEB0ED /* ikeaSearchViewMockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ikeaSearchViewMockData.json; sourceTree = "<group>"; };
 		C50A26B328E98A8F00DEB0ED /* MockupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockupModel.swift; sourceTree = "<group>"; };
-		C50A26B528E9AEE500DEB0ED /* OtherTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherTabView.swift; sourceTree = "<group>"; };
 		C50A26B728E9B00300DEB0ED /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,7 +74,6 @@
 				C50A26A628E7EF8000DEB0ED /* Info.plist */,
 				C50A26B128E8473900DEB0ED /* ikeaSearchViewMockData.json */,
 				C50A26B328E98A8F00DEB0ED /* MockupModel.swift */,
-				C50A26B528E9AEE500DEB0ED /* OtherTabView.swift */,
 				C50A26B728E9B00300DEB0ED /* TabBarController.swift */,
 			);
 			path = "SnoopClass-IKEA";
@@ -181,7 +178,6 @@
 				C50A269D28E7EF7F00DEB0ED /* SearchViewController.swift in Sources */,
 				C50A269928E7EF7F00DEB0ED /* AppDelegate.swift in Sources */,
 				C50A26B828E9B00300DEB0ED /* TabBarController.swift in Sources */,
-				C50A26B628E9AEE500DEB0ED /* OtherTabView.swift in Sources */,
 				C50A269B28E7EF7F00DEB0ED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
