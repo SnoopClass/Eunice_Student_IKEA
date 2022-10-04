@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		C50A269928E7EF7F00DEB0ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A269828E7EF7F00DEB0ED /* AppDelegate.swift */; };
 		C50A269B28E7EF7F00DEB0ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A269A28E7EF7F00DEB0ED /* SceneDelegate.swift */; };
-		C50A269D28E7EF7F00DEB0ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A269C28E7EF7F00DEB0ED /* ViewController.swift */; };
+		C50A269D28E7EF7F00DEB0ED /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A269C28E7EF7F00DEB0ED /* SearchViewController.swift */; };
 		C50A26A028E7EF7F00DEB0ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50A269E28E7EF7F00DEB0ED /* Main.storyboard */; };
 		C50A26A228E7EF8000DEB0ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C50A26A128E7EF8000DEB0ED /* Assets.xcassets */; };
 		C50A26A528E7EF8000DEB0ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50A26A328E7EF8000DEB0ED /* LaunchScreen.storyboard */; };
 		C50A26B028E8352200DEB0ED /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = C50A26AF28E8352200DEB0ED /* .swiftlint.yml */; };
+		C50A26B228E8473900DEB0ED /* ikeaSearchViewMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = C50A26B128E8473900DEB0ED /* ikeaSearchViewMockData.json */; };
+		C50A26B428E98A8F00DEB0ED /* MockupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A26B328E98A8F00DEB0ED /* MockupModel.swift */; };
+		C50A26B828E9B00300DEB0ED /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A26B728E9B00300DEB0ED /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C50A269528E7EF7F00DEB0ED /* SnoopClass-IKEA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SnoopClass-IKEA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C50A269828E7EF7F00DEB0ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C50A269A28E7EF7F00DEB0ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C50A269C28E7EF7F00DEB0ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C50A269C28E7EF7F00DEB0ED /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		C50A269F28E7EF7F00DEB0ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C50A26A128E7EF8000DEB0ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C50A26A428E7EF8000DEB0ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C50A26A628E7EF8000DEB0ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C50A26AF28E8352200DEB0ED /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		C50A26B128E8473900DEB0ED /* ikeaSearchViewMockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ikeaSearchViewMockData.json; sourceTree = "<group>"; };
+		C50A26B328E98A8F00DEB0ED /* MockupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockupModel.swift; sourceTree = "<group>"; };
+		C50A26B728E9B00300DEB0ED /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +67,14 @@
 			children = (
 				C50A269828E7EF7F00DEB0ED /* AppDelegate.swift */,
 				C50A269A28E7EF7F00DEB0ED /* SceneDelegate.swift */,
-				C50A269C28E7EF7F00DEB0ED /* ViewController.swift */,
+				C50A269C28E7EF7F00DEB0ED /* SearchViewController.swift */,
 				C50A269E28E7EF7F00DEB0ED /* Main.storyboard */,
 				C50A26A128E7EF8000DEB0ED /* Assets.xcassets */,
 				C50A26A328E7EF8000DEB0ED /* LaunchScreen.storyboard */,
 				C50A26A628E7EF8000DEB0ED /* Info.plist */,
+				C50A26B128E8473900DEB0ED /* ikeaSearchViewMockData.json */,
+				C50A26B328E98A8F00DEB0ED /* MockupModel.swift */,
+				C50A26B728E9B00300DEB0ED /* TabBarController.swift */,
 			);
 			path = "SnoopClass-IKEA";
 			sourceTree = "<group>";
@@ -129,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C50A26B228E8473900DEB0ED /* ikeaSearchViewMockData.json in Resources */,
 				C50A26B028E8352200DEB0ED /* .swiftlint.yml in Resources */,
 				C50A26A528E7EF8000DEB0ED /* LaunchScreen.storyboard in Resources */,
 				C50A26A228E7EF8000DEB0ED /* Assets.xcassets in Resources */,
@@ -164,8 +174,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C50A269D28E7EF7F00DEB0ED /* ViewController.swift in Sources */,
+				C50A26B428E98A8F00DEB0ED /* MockupModel.swift in Sources */,
+				C50A269D28E7EF7F00DEB0ED /* SearchViewController.swift in Sources */,
 				C50A269928E7EF7F00DEB0ED /* AppDelegate.swift in Sources */,
+				C50A26B828E9B00300DEB0ED /* TabBarController.swift in Sources */,
 				C50A269B28E7EF7F00DEB0ED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
