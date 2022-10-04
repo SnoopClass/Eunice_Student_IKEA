@@ -15,9 +15,17 @@ struct Ikea: Codable {
 }
 
 // MARK: - DetailCard
-struct DetailCard: Codable {
+struct DetailCard: Codable, Hashable {
     let title, button: String
     let items: [DetailItem]
+    // hashable
+    var id = UUID()
+    static func == (lhs: DetailCard, rhs: DetailCard) -> Bool {
+        lhs.id == rhs.id
+    }
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
 }
 
 // MARK: - DetailItem
@@ -35,9 +43,17 @@ struct Purchase: Codable {
 }
 
 // MARK: - CompactCard
-struct CompactCard: Codable {
+struct CompactCard: Codable, Hashable {
     let title, button: String
     let items: [CompactItem]
+    //hashable
+    var id = UUID()
+    static func == (lhs: CompactCard, rhs: CompactCard) -> Bool {
+        lhs.id == rhs.id
+    }
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
 }
 
 // MARK: - CompactItem

@@ -17,6 +17,7 @@
 		C50A26B228E8473900DEB0ED /* ikeaSearchViewMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = C50A26B128E8473900DEB0ED /* ikeaSearchViewMockData.json */; };
 		C50A26B428E98A8F00DEB0ED /* MockupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A26B328E98A8F00DEB0ED /* MockupModel.swift */; };
 		C50A26B828E9B00300DEB0ED /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A26B728E9B00300DEB0ED /* TabBarController.swift */; };
+		C50A26F828ECA00C00DEB0ED /* SupplementaryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A26F728ECA00C00DEB0ED /* SupplementaryViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		C50A26B128E8473900DEB0ED /* ikeaSearchViewMockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ikeaSearchViewMockData.json; sourceTree = "<group>"; };
 		C50A26B328E98A8F00DEB0ED /* MockupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockupModel.swift; sourceTree = "<group>"; };
 		C50A26B728E9B00300DEB0ED /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		C50A26F728ECA00C00DEB0ED /* SupplementaryViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplementaryViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				C50A26B128E8473900DEB0ED /* ikeaSearchViewMockData.json */,
 				C50A26B328E98A8F00DEB0ED /* MockupModel.swift */,
 				C50A26B728E9B00300DEB0ED /* TabBarController.swift */,
+				C50A26F728ECA00C00DEB0ED /* SupplementaryViews.swift */,
 			);
 			path = "SnoopClass-IKEA";
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C50A26F828ECA00C00DEB0ED /* SupplementaryViews.swift in Sources */,
 				C50A26B428E98A8F00DEB0ED /* MockupModel.swift in Sources */,
 				C50A269D28E7EF7F00DEB0ED /* SearchViewController.swift in Sources */,
 				C50A269928E7EF7F00DEB0ED /* AppDelegate.swift in Sources */,
