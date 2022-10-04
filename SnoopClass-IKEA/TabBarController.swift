@@ -54,13 +54,23 @@ class TabBarController: UITabBarController {
             wishViewController,
             cartViewController
         ]
+        
         // 탭바 모양 세팅
-        tabBar.tintColor = .label
-        tabBar.backgroundColor = .systemBackground
-        tabBar.layer.borderColor = UIColor.label.cgColor
-        tabBar.layer.borderWidth = 0.3
-        // 스크롤 끝에서 보더만 사라지는 것은 스크롤뷰 구현 후 tabBar.scrollEdgeAppearance 와 https://madilyn.tistory.com/23 를 참고해 해볼 예정
+        configureTabBar()
+        // 시작 탭뷰 설정
+        self.selectedIndex = 1
+    }
+}
 
+extension TabBarController {
+    func configureTabBar() {
+        // 탭바 모양 세팅
+        // 참고: https://madilyn.tistory.com/23
+        let appearance = UITabBarAppearance()
+        appearance.backgroundColor = .systemBackground
+        appearance.selectionIndicatorTintColor = .label
+        tabBar.scrollEdgeAppearance = appearance
+        tabBar.standardAppearance = appearance
         // 시작 탭뷰 설정
         self.selectedIndex = 1
     }
