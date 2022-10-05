@@ -15,10 +15,7 @@ class SearchViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
         readFile()
-        // Do any additional setup after loading the view.
     }
-
-
 }
 
 // 참고 코드: https://alep.medium.com/swiftui-tutorial-how-to-read-a-json-file-73fd960ec954
