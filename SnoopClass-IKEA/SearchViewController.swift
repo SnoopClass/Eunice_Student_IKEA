@@ -11,7 +11,6 @@ class SearchViewController: UIViewController {
     fileprivate var recent, category: CompactCard?
     fileprivate var campaign, popular: DetailCard?
 
-    @IBOutlet weak var searchStackView: UIStackView!
     @IBOutlet weak var recentHorizontalStackView: UIStackView!
     private var searchController: UISearchController = {
         return UISearchController(searchResultsController: SearchResultViewController())
@@ -20,14 +19,19 @@ class SearchViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
-        readFile()
-        configSearchController()
+        // readFile()
+        configSearchSection()
         configRecentSection()
     }
 }
 
 extension SearchViewController {
-    private func configSearchController() {
+    private func configSearchSection() {
+        navigationItem.titleView = searchController.searchBar
+        navigationController?.navigationBar.prefersLargeTitles = true
+        title = "검색"
+        navigationItem.searchController = searchController
+
         searchController.delegate = self
         searchController.searchBar.delegate = self
 
@@ -36,7 +40,6 @@ extension SearchViewController {
         searchController.searchBar.backgroundColor = .systemBackground
         searchController.searchBar.searchTextField.layer.cornerRadius = 16
         searchController.searchBar.searchTextField.clipsToBounds = true
-        searchStackView.addArrangedSubview(searchController.searchBar)
     }
     private func configRecentSection() {
         recentHorizontalStackView.backgroundColor = .systemBlue

@@ -27,9 +27,7 @@ class TabBarController: UITabBarController {
     private lazy var searchViewController: UINavigationController = {
         let viewController = storyboard!.instantiateViewController(withIdentifier: "SearchViewController")
         viewController.tabBarItem = UITabBarItem(title: nil, image: UIImage(systemName: TabIcon.search.rawValue), tag: 1)
-        let naviController = UINavigationController(rootViewController: viewController)
-        naviController.setNavigationBarHidden(true, animated: true)
-        return naviController
+        return UINavigationController(rootViewController: viewController)
     }()
     private lazy var userViewController: UIViewController = {
         $0.view.backgroundColor = .systemMint
