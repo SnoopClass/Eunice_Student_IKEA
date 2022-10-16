@@ -25,7 +25,7 @@ class TabBarController: UITabBarController {
     }(UIViewController())
     // 상품 상세페이지로 이동시 네비게이션컨트롤러를 사용하므로 미리 넣음
     private lazy var searchViewController: UINavigationController = {
-        let viewController = SearchViewController()
+        let viewController = storyboard!.instantiateViewController(withIdentifier: "SearchViewController")
         viewController.tabBarItem = UITabBarItem(title: nil, image: UIImage(systemName: TabIcon.search.rawValue), tag: 1)
         return UINavigationController(rootViewController: viewController)
     }()
